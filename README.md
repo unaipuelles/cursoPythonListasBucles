@@ -44,14 +44,14 @@ Se utiliza de la misma manera que las listas pero la declaración cambia. Podemo
 
 ## Bucles
 
-####Bucle for
+###Bucle for
 Se utiliza para recorer los elementos de una lista o tupla
 ```
 >>> for elem in [10, 20, 25, 27, 28.5]:
         print(elem)
 ```
 
-####Bucle while
+###Bucle while
 Se utilizan para repetir una coleccion de sentencias de programa varias veces.
 ```
 >>> t = 0; dt = 0.5; T = 2
