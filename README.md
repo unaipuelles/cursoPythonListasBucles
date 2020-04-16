@@ -11,11 +11,11 @@ números, strings, funciones y otras listas dentre de ella.
 <br/>
 ### Listas
 Una lista puede ser de la siguiente manera:
-```
+```python
 >>> milista = [t, dt, T, 'mynumbers.dat', 100]
 ```
 Además las listas tienen diferentes acciones con las que crearlas, eliminarlas, modificarlas o para recoger informacion sobre ellas.
-```
+```python
 milista = [] 	                #Inicializar una lista vacias
 milista = [1, 4.4, 'run.py'] 	#Inicializar una lista
 milista.append(elem) 	        #Añadir elemento al final
@@ -37,7 +37,7 @@ milista.index('run.py') 	    #Buscar el índice del elemento con el valor 'run.p
 ### Tuplas
 La tupla se puede representar como una lista constante, es decir, que no permite cambios de contenido en ella.
 Se utiliza de la misma manera que las listas pero la declaración cambia. Podemos ver a continuación unos ejemplos:
-```
+```python
 >>> mytuple = (t, dt, T, 'mynumbers.dat', 100)
 >>> mytuple =  t, dt, T, 'mynumbers.dat', 100
 ```
@@ -46,14 +46,14 @@ Se utiliza de la misma manera que las listas pero la declaración cambia. Podemo
 
 ### Bucle for
 Se utiliza para recorer los elementos de una lista o tupla
-```
+```python
 >>> for elem in [10, 20, 25, 27, 28.5]:
         print(elem)
 ```
 
 ### Bucle while
 Se utilizan para repetir una coleccion de sentencias de programa varias veces.
-```
+```python
 >>> t = 0; dt = 0.5; T = 2
 >>> while t <= T:
 ...      print t
