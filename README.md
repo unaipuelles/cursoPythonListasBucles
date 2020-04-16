@@ -9,7 +9,7 @@
 La lista se usa para recoger un número de valores o variables en una secuencia ordenada. Una lista puede contener objetos de python, 
 números, strings, funciones y otras listas dentre de ella.
 <br/>
-#### Listas
+### Listas
 Una lista puede ser de la siguiente manera:
 ```
 >>> milista = [t, dt, T, 'mynumbers.dat', 100]
@@ -34,7 +34,7 @@ milista.remove(e) 	        #Eliminar el elemento con valor e
 milista.index('run.py') 	#Buscar el índice del elemento con el valor 'run.py'
 
 ```
-#### Tuplas
+### Tuplas
 La tupla se puede representar como una lista constante, es decir, que no permite cambios de contenido en ella.
 Se utiliza de la misma manera que las listas pero la declaración cambia. Podemos ver a continuación unos ejemplos:
 ```
@@ -44,14 +44,14 @@ Se utiliza de la misma manera que las listas pero la declaración cambia. Podemo
 
 ## Bucles
 
-#### Bucle for
+### Bucle for
 Se utiliza para recorer los elementos de una lista o tupla
 ```
 >>> for elem in [10, 20, 25, 27, 28.5]:
         print(elem)
 ```
 
-#### Bucle while
+### Bucle while
 Se utilizan para repetir una coleccion de sentencias de programa varias veces.
 ```
 >>> t = 0; dt = 0.5; T = 2
