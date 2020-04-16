@@ -29,7 +29,7 @@ sum(milista) 	                #Sumar todos los elementos de la lista
 sorted(milista) 	            #Ordenar todos los valores de la lista
 milista[3] 	                  #Recoger el elemento número 3
 milista[-1] 	                #Recoger el último elemento
-del milista[3] 	               #Eliminar el elemento número 3
+del milista[3] 	              #Eliminar el elemento número 3
 milista.remove(e) 	          #Eliminar el elemento con valor e
 milista.index('run.py') 	    #Buscar el índice del elemento con el valor 'run.py'
 
